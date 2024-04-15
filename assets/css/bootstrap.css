@@ -1444,7 +1444,7 @@ a {
 
 .teal, .hover-teal:hover {
     color: #fff !important;
-    background-color: #009688 !important
+    background-color: #4FAF44 !important
 }
 
 .yellow, .hover-yellow:hover {
@@ -1574,7 +1574,7 @@ a {
 }
 
 .text-teal, .hover-text-teal:hover {
-    color: #009688 !important
+    color: #4FAF44 !important
 }
 
 .text-yellow, .hover-text-yellow:hover {
@@ -1678,7 +1678,7 @@ a {
 }
 
 .border-teal, .hover-border-teal:hover {
-    border-color: #009688 !important
+    border-color: #4FAF44 !important
 }
 
 .border-yellow, .hover-border-yellow:hover {
