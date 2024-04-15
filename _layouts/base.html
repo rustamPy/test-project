@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     {% if page.styles %}
-    <link rel="stylesheet" href="../assets/css/{{ page.styles }}.css">
+    <link rel="stylesheet" href="{{ "/assets/css/" | append: page.styles | append: ".css" | relative_url }}">
     {% endif %}
     <link rel="stylesheet" href="../assets/css/base.css">
 
