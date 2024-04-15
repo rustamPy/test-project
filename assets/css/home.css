@@ -26,6 +26,7 @@ li {
     color: #4FAF44;
 }
 
+
 .arrow i {
     display: none;
 }
@@ -35,6 +36,7 @@ li {
     display: block;
     color: #F6EB14;
 }
+
 
 .arrow:hover {
     cursor: pointer;
