@@ -1,5 +1,5 @@
 ---
 layout: about
 title: About
-styles: bootstrap
+styles: about
 ---

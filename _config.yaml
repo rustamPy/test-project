@@ -30,10 +30,7 @@ plugins:
   - jekyll-feed
 
 collections:
-  courses:
-    output: true
-
-  articles:
+  projects:
     output: true
 
 header_pages:

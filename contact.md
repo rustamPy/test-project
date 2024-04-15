@@ -1,5 +1,5 @@
 ---
 layout: contact
 title: Contact
-styles: bootstrap
+styles: about
 ---

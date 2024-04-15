@@ -7,18 +7,17 @@
     {% endif %}
     <link rel="stylesheet" href="{{ "/assets/css/base.css" | relative_url }}">
 
+    {% if page.scripts %}
+    <script src="{{ "/assets/js/" | append: page.scripts | append: ".js" | relative_url }}">
+    {% endif %}
+
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body class="light-gray">
-<nav class="navbar">
-    <ul class="navbar-nav">
-        <li class="nav-item {% if page.title == 'Home' %} active {% endif %}"><a href="{{ "/" | relative_url }}">Home</a></li>
-        <li class="nav-item {% if page.title == 'About' %} active {% endif %}"><a href="{{ "/about" | relative_url }}">About</a></li>
-        <li class="nav-item {% if page.title == 'Contact' %} active {% endif %}"><a href="{{ "/contact" | relative_url }}"">Contact</a></li>
-    </ul>
-</nav>
+{%- include navbar.html -%}
 {{ content }}
-
 {%- include footer.html -%}
 </body>
 </html>
