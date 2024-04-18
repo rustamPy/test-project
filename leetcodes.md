@@ -1,5 +1,6 @@
 ---
 layout: leetcodes
 title: Leetcode
-styles: about
+styles: leetcodes
+version: 0.2
 ---

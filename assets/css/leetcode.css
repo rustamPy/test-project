@@ -1,9 +1,10 @@
-.body {
-    background-color: wheat;
+body {
+    background-color: #f5f0e7;
 }
 
 .container {
     display: flex;
+    flex-direction: column;
 }
 
 .code {
@@ -15,4 +16,13 @@
     margin: 10px;
     width: 70px;
     height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #3d3d3d;
+}
+
+a:hover {
+    color: #1a1afa;
 }
