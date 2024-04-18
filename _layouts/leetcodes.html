@@ -4,7 +4,8 @@
 
     {% for code in site.leetcodes %}
     <div class="code">
-        <a href="{{ code.url }}">{{code.number}} - {{ code.title }}</a> <img
+
+        <a href="{{ code.url | relative_url }}">{{code.number}} - {{ code.title }}</a> <img
             src="https://img.shields.io/badge/level-{{ code.level }}-{{ levels[code.level] }}"></li>
     </div>
 
