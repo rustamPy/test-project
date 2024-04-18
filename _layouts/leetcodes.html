@@ -1,7 +1,13 @@
-
+{%- include navbar.html -%}
 {% assign levels = site.levels %}
+<head>
+    <link rel="stylesheet" href="{{ "/assets/css/leetcode.css" | relative_url }}">
+</head>
+<div style="margin-bottom: 40px">
+    <i> ver.: {{page.version}} </i>
+    <a href="https://github.com/rustamPy/test-project" target="_blank">View source code on GitHub</a></div>
 <div class="container">
-
+    Tasks:
     {% for code in site.leetcodes %}
     <div class="code">
 
@@ -11,3 +17,4 @@
 
     {% endfor %}
 </div>
+
