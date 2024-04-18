@@ -32,10 +32,18 @@ plugins:
 collections:
   projects:
     output: true
+  leetcodes:
+    output: true
+
+levels:
+  hard: red
+  medium: brown
+  easy: green
 
 header_pages:
   - about.md
   - contact.md
+disqus: "exampledisqus-2"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

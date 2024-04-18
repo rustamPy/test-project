@@ -1767,3 +1767,17 @@ a {
     font-weight: bold;
     color: #4FAF44;
 }
+
+/* Comments */
+
+.disqus-comments {
+    margin-top: 1.875rem;
+    margin-left: 280px;
+    margin-right: 280px;
+}
+
+@media (min-width: 768px) {
+    .disqus-comments {
+        margin-top: 2.5rem;
+    }
+}
