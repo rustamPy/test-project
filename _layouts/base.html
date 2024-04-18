@@ -1,23 +1,33 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: " en" }}">
 <head>
+
+    <!-- Base imports -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ "/assets/css/base.css" | relative_url }}">
+
+
     <meta charset="UTF-8">
     {% if page.styles %}
     <link rel="stylesheet" href="{{ "/assets/css/" | append: page.styles | append: ".css" | relative_url }}">
     {% endif %}
-    <link rel="stylesheet" href="{{ "/assets/css/base.css" | relative_url }}">
+
+    {% if layout.styles %}
+    <link rel="stylesheet" href="{{ "/assets/css/" | append: layout.styles | append: ".css" | relative_url }}">
+    {% endif %}
+
 
     {% if page.scripts %}
     <script src="{{ "/assets/js/" | append: page.scripts | append: ".js" | relative_url }}">
     {% endif %}
 
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 </head>
 <body class="light-gray">
 {%- include navbar.html -%}
 {{ content }}
+{%- include comments.html -%}
 {%- include footer.html -%}
+<script id="dsq-count-scr" src="//exampledisqus-2.disqus.com/count.js" async></script>
 </body>
 </html>

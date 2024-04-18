@@ -1,0 +1,18 @@
+.body {
+    background-color: wheat;
+}
+
+.container {
+    display: flex;
+}
+
+.code {
+    display: flex;
+    align-items: center;
+}
+
+.code img {
+    margin: 10px;
+    width: 70px;
+    height: auto;
+}
