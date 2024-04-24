@@ -1,11 +1,12 @@
 ![Static Badge](https://img.shields.io/badge/student%20id-17915-blue)
 
-# Project 1:
+# Projects 1, 3:
 Mr. Stanisław Bajor has been assigned to the project. It consists solely of HTML and CSS, with Jekyll (site generator by Ruby) facilitating easy
 deployment to GitHub Pages.  
 ![Status](https://img.shields.io/badge/Status-Active-green)
 
 ## Website: [https://rustampy.github.io/test-project/about](https://rustampy.github.io/test-project/about)
+## Calculator: [https://rustampy.github.io/test-project//projects/calculator](https://rustampy.github.io/test-project/projects/calculator)
 
 
 # Project 2:

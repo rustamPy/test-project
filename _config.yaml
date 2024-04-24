@@ -42,7 +42,7 @@ levels:
 
 header_pages:
   - about.md
-  - contact.md
+
 disqus: "exampledisqus-2"
 
 # Exclude from processing.

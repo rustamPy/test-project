@@ -1,0 +1,43 @@
+---
+layout: base
+---
+<div class="calc-center">
+
+    <div class="calculator">
+        <p>Calculatorrrrr <i class="fa-solid fa-calculator"></i> </p>
+        <input type="text" id="display" class="display" disabled/> <!-- Display for showing result -->
+        <div class="buttons">
+
+            <button onclick="deleteLast()">DEL</button>
+            <button onclick="clearView()">C</button>
+            <button onclick="addToView('/')">/</button>
+            <button onclick="addToView('*')">*</button>
+
+            <button onclick="addToView('7')">7</button>
+            <button onclick="addToView('8')">8</button>
+            <button onclick="addToView('9')">9</button>
+            <button onclick="addToView('-')">-</button>
+
+            <button onclick="addToView('4')">4</button>
+            <button onclick="addToView('5')">5</button>
+            <button onclick="addToView('6')">6</button>
+            <button onclick="addToView('+')">+</button>
+
+            <button onclick="addToView('1')">1</button>
+            <button onclick="addToView('2')">2</button>
+            <button onclick="addToView('3')">3</button>
+            <button onclick="calculateResult(); saveInHistory();">=</button>
+
+            <button onclick="addToView('0')">0</button>
+            <button onclick="addToView('.')">.</button>
+        </div>
+    </div>
+
+    <div class="history">
+        <p>History</p>
+        <textarea id="history" type="text" disabled></textarea>
+        <button onclick="clearHistory();"> Clear history</button>
+    </div>
+    <script src="/assets/js/calculator_js.js"></script>
+
+</div>

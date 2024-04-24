@@ -3,22 +3,22 @@
 <head>
 
     <!-- Base imports -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="{{ "/assets/css/base.css" | relative_url }}">
+    <script src="https://kit.fontawesome.com/22a7cc9034.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{{ '/assets/css/base.css' | relative_url }}">
 
 
     <meta charset="UTF-8">
     {% if page.styles %}
-    <link rel="stylesheet" href="{{ "/assets/css/" | append: page.styles | append: ".css" | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/' | append: page.styles | append: '.css' | relative_url }}">
     {% endif %}
 
     {% if layout.styles %}
-    <link rel="stylesheet" href="{{ "/assets/css/" | append: layout.styles | append: ".css" | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/' | append: layout.styles | append: '.css' | relative_url }}">
     {% endif %}
 
 
     {% if page.scripts %}
-    <script src="{{ "/assets/js/" | append: page.scripts | append: ".js" | relative_url }}">
+    <script src="{{ '/assets/js/' | append: page.scripts | append: '.js' | relative_url }}"></script>
     {% endif %}
 
 
