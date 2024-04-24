@@ -7,6 +7,7 @@ deployment to GitHub Pages.
 
 ## Website: [https://rustampy.github.io/test-project/about](https://rustampy.github.io/test-project/about)
 ## Calculator: [https://rustampy.github.io/test-project//projects/calculator](https://rustampy.github.io/test-project/projects/calculator)
+![img.png](assets/images/calculator.png)
 
 
 # Project 2:
